@@ -5,6 +5,9 @@ import com.facebook.react.ReactActivity;
         import com.facebook.react.ReactActivityDelegate;
         import com.facebook.react.ReactRootView;
         import com.swmansion.gesturehandler.react.RNGestureHandlerEnabledRootView;
+        import com.facebook.react.ReactActivityDelegate;
+        import com.facebook.react.ReactRootView;
+        import com.swmansion.gesturehandler.react.RNGestureHandlerEnabledRootView;
 
 public class MainActivity extends ReactActivity {
 
@@ -15,8 +18,10 @@ public class MainActivity extends ReactActivity {
       protected ReactRootView createRootView() {
        return new RNGestureHandlerEnabledRootView(MainActivity.this);
       }
+
     };
   }
+  
 
   /**
    * Returns the name of the main component registered from JavaScript. This is used to schedule
